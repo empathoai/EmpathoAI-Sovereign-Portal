@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 node_modules/
 build/
 dist/
@@ -6,3 +7,53 @@ coverage/
 *.log
 .env*
 !.env.example
+=======
+# EmpathoAI Sovereign Portal - Root Gitignore
+
+# Dependencies
+**/node_modules
+/.pnp
+.pnp.*
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/versions
+
+# Testing
+/coverage
+
+# Next.js
+**/.next/
+**/out/
+
+# Production
+**/build
+
+# Misc
+.DS_Store
+*.pem
+yarn-error.log*
+.pnpm-debug.log*
+
+# Env files
+.env*
+
+# Vercel
+.vercel
+
+# TypeScript
+*.tsbuildinfo
+next-env.d.ts
+
+# Brain / Agent related (Local only)
+.gemini/
+.agent/
+.agents/
+_agent/
+_agents/
+brain/
+task.md
+implementation_plan.md
+walkthrough.md
+>>>>>>> bbcacb6 (feat: sovereign foundations v3 - infrastructure & rigor)
